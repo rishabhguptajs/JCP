@@ -24,6 +24,5 @@ public class Main{
         r1.calculateArea(2, 3);
         r2.length = 2;
         r2.breadth = 3;
-        r2.calculateArea(2, 3);
     }
 }
