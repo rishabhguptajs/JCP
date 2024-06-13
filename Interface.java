@@ -7,6 +7,8 @@
 // 2. default method - keyword default
 // 3. static method - keyword static
 
+// static method means that the method can be called without creating an object of the class, and can only access static variables.
+
 interface Fly{
     public void startFlying();
     public void flyLow();
@@ -38,5 +40,8 @@ class Bird implements Fly{
 }
 
 public class Interface {
-    
+    public static void main(String[] args) {
+        Bird bird = new Bird();
+        Fly.test();
+    }
 }

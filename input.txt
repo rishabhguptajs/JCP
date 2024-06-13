@@ -1,0 +1,1 @@
+all characters to be printed in the console

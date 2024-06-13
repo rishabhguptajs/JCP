@@ -19,6 +19,10 @@
 //     }
 // }
 
+// Polymorphism is the ability of a single function to operate on different data types. 
+// It is the ability to redefine methods for derived classes.
+// Polymorphism is a feature of OOPs that allows objects to be treated as instances of their parent class.
+
 class A{
     void m1(){
         System.out.println("I'm in super class.");
@@ -69,8 +73,8 @@ class Mammals extends Animal{
     // void hehe(){
     //     System.out.println("HEHE");
     // }
-}
 
+}
 class Reptile extends Animal{
     public void makeSound(){
         System.out.println("Reptile sound!!");

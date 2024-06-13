@@ -26,3 +26,6 @@ public class View {
         EmployeeDAO.getSalary(id, emp);
     }
 }
+
+// methods to add - display all employees, update employee details using id.
+// generate a jar file, and run it using command line.
